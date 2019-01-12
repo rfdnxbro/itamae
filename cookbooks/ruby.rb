@@ -1,4 +1,4 @@
-%w(gcc openssl-devel readline-devel git).each do |pkg|
+%w(gcc openssl-devel readline-devel git zlib-devel curl-devel libyaml-devel libffi-devel).each do |pkg|
   package pkg do
     action :install
   end
