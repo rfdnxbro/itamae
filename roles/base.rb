@@ -1,3 +1,5 @@
 include_recipe '../cookbooks/init.rb'
 include_recipe '../cookbooks/ruby.rb'
+include_recipe '../cookbooks/postgres/default.rb'
 include_recipe '../cookbooks/redmine/default.rb'
+include_recipe '../cookbooks/httpd/default.rb'

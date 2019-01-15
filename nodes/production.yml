@@ -5,6 +5,9 @@ git:
 ruby:
   version: 2.6.0
   user: ec2-user
+  path: /usr/local/.rbenv
+redmine:
+  path: /var/lib/redmine
 # redmineが2系サポートしてない...
 bundler:
   version: 1.17.2

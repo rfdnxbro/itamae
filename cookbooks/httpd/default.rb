@@ -11,6 +11,6 @@ end
 execute "start apache" do
   command "sudo service httpd start && "\
           "sudo chkconfig httpd on && " \
-          "sudo chown -R apache:apache /var/lib/redmine"
+          "sudo chown -R apache:apache #{node["redmine"]["path"]}"
 end
 

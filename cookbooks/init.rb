@@ -1,7 +1,6 @@
 # yum update
 execute "update yum repo" do
-  user "root"
-  command "yum -y update"
+  command "sudo yum -y update"
 end
 
 #install git
